@@ -1,0 +1,375 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    overflow-x: hidden;
+    display: block;
+}
+
+body {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    line-height: 1.33333;
+    color: #adadad;
+    background-color: #fff;
+}
+
+/* global */
+p,
+.container,
+ul,
+li,
+div,
+h1,
+h2,
+h3,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea {
+  color: #999999;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #999999;
+  -webkit-text-fill-color: #6a707e;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/*container*/
+.container {
+    width: 100%;
+}
+
+/*Index top heading*/
+.top-heading {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.top-heading h2 {
+    margin-top: 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+/*Navigation section*/
+.index-navigation-section {
+    margin-top: 15px;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar {
+    height: 70px;
+    padding-left: 58px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background: black;
+    margin-bottom: 0px;
+}
+
+.navbar-header {
+    color: white;
+    margin-right: 35px;
+}
+
+.navbar-header #phn-icon {
+    padding-top: 10px;
+}
+
+.nav li a {
+    color: white;
+    height: 46px;
+    margin-bottom: 13px;
+}
+
+.nav li a:hover,
+.nav .active a {
+    background: #fbc318;
+    border-radius:  28px;
+}
+
+.social-media {
+    margin-top: 11px;
+    margin-left: 50px;
+    visibility: hidden;
+}
+
+.social-media a {
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    box-sizing: border-box;
+    background-color: rgb(28, 28, 28);
+    width: 200px;
+}
+
+.options li {
+    padding-top: 20px;
+}
+
+.options li:last-child {
+    padding-bottom: 20px;
+}
+
+.options li a {
+    font-size: 14px;
+    color:#fbc318;
+    text-decoration: none;
+}
+
+.options li a:hover {
+    background-color: rgb(28, 28, 28);
+    border-radius: 0;
+}
+
+/*General header*/
+.logo-section {
+    margin-top: -8px;
+    padding-right: 50px;
+}
+
+/*carousel*/
+.carousel-caption h1 {
+    font-weight: bolder;
+    color: white;
+    font-size: 48px;
+}
+
+.carousel-caption h4 {
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    background-color: #fbc318;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.carousel-caption a:hover {
+    background-color: black;
+    color: #fbc318;
+}
+
+.more-btn {
+    margin-top: 30px;
+}
+
+.home-image-section {
+    margin-bottom: 0px;
+}
+
+/*About Us*/
+.about-us-image-area {
+    background-image: url("../../assets/general/about-us.jpg");
+    /*background-repeat: no-repeat;*/ /*clean this up*/
+    height: 200px;
+}
+
+.about-us-image-area p,
+.solar-lights-image-area p {
+    font-size: 32px;
+    text-align: center;
+    color: #fbc318;
+    font-weight: bolder;
+    padding-top: 90px
+}
+
+.about-headers {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+    margin-top: 30px;
+}
+
+.about-images {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about-images img {
+    border-radius: 60px;
+}
+
+.about-details {
+    padding: 20px 100px 0 100px;
+    font-size: 16px;
+}
+
+.about-details p {
+    padding-bottom: 10px;
+}
+
+.about-details p:last-child {
+    padding-bottom: 0px;
+}
+
+.wwd-details {
+    padding-bottom: 50px;
+}
+
+/*Solar Flood Lights*/
+.solar-lights-image-area {
+    background-image: url("../../assets/general/solar-solutions.jpg");
+    /*background-repeat: no-repeat;*/ /*clean this up*/
+    height: 200px;
+}
+
+.solar-lights-one-title {
+    color: #fbc318;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+/*solar, street, led*/
+.solar-lights-one-row,
+.street-lights-row,
+.led-bulbs-row {
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.prd-align {
+    text-align: center;
+}
+
+.flood-prod-details {
+    padding-bottom: 50px;
+}
+
+/*solar lights and street lights*/
+.flood-prod-details h4,
+.street-prod-details h4,
+.led-bulbs-area-details h4 {
+    color: #fbc318;
+    font-weight: bolder;
+}
+
+.flood-prod-details ul li,
+.street-prod-details ul li,
+.led-bulbs-area-details ul li {
+    color: black;
+    padding-bottom: 10px;
+}
+
+/*Solar Street Lights*/
+.street-lights-title {
+    color: #fbc318;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+.street-prod-details {
+    padding-top: 10px;
+}
+
+/*Led Bulbs*/
+.led-bulbs-title {
+    color: #fbc318;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.led-bulbs-area-details {
+    padding-bottom: 40px;
+}
+
+/*footer*/
+.main-footer-section {
+    background-color: rgb(28, 28, 28);
+    padding: 50px 0 50px 50px;
+}
+
+.first-footer-column p,
+.footer-tle {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.first-footer-column #phn-area {
+    padding-bottom: 10px;
+}
+
+.det-color {
+    color: #fbc318;
+}
+
+.second-footer-column,
+.third-footer-column,
+.fourth-footer-column,
+.fifth-footer-column {
+    padding-top: 1px;
+}
+
+.third-footer-column ul li,
+.fourth-footer-column ul li {
+    padding-bottom: 20px;
+}
+
+.second-footer-column ul li a,
+.third-footer-column ul li a,
+.fourth-footer-column ul li a
+{
+    text-decoration: none;
+}
+
+.second-footer-column ul li a:hover,
+.third-footer-column ul li a:hover,
+.fourth-footer-column ul li a:hover
+{
+    color: #fbc318;
+}
+
+.copyright-section {
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    padding-bottom: 80px;
+    color: white;
+}
