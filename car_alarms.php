@@ -28,7 +28,7 @@
 
                     <p>
                         Cars have been a natural target for thieves. They are
-                        valuable, reasonably easy to resell and they have a 
+                        valuable, reasonably <br> easy to resell and they have a 
                         built-in gateway system
                     </p>
 
@@ -39,20 +39,22 @@
 
                     <p>
                         We offer electronic devices installed in your vehicle in
-                        an attempt to discourage theft of the vehicle itself, it's
-                        contents or both by emitting high-volume sound (usually
-                        a siren, pre-recorded verbal warning, the vehicle's own horn,
+                        an attempt to <br> discourage theft of the vehicle itself, it's
+                        contents or both by emitting high- <br> volume sound (usually
+                        a siren, pre-recorded verbal warning, the vehicle's <br> own horn,
                         or a combination thereof) when the conditions for triggering
-                        are met, as well as flashing some of the vehicle's lights and
-                        (optionally) notifying the car's owner via a paging system and 
-                        interrupting various electrical circuits necessary for the car
+                        are <br> met, as well as flashing some of the vehicle's lights and
+                        (optionally) <br> notifying the car's owner via a paging system and 
+                        interrupting various <br> electrical circuits necessary for the car
                         to start
                     </p>
                 </div>
 
-                <div class="car-alarms-details-two col-lg-6">
+                <div class="car-alarms-details-two col-lg-5">
                     <div class="car-alarms-image-two-area"></div>
                 </div>
+
+                <div class="col-lg-1"></div>
             </div> <!--car alarms info row-->
 
             <div class="products-title-row">
@@ -62,24 +64,24 @@
             <div class="car-alarms-products-div row">
                 <div class="col-lg-4">
                     <figure>
-                        <img src="" alt="" width="" height="">
+                        <img src="assets/car-alarm-systems/car-alarm-1.jpg" alt="" width="350" height="300">
                     </figure>
                 </div>
 
                 <div class="col-lg-4">
                     <figure>
-                        <img src="" alt="" width="" height="">
+                        <img src="assets/car-alarm-systems/car-alarm-2.jpg" alt="" width="350" height="300">
                     </figure>
                 </div>
 
                 <div class="col-lg-4">
                     <figure>
-                        <img src="" alt="" width="" height="">
+                        <img src="assets/car-alarm-systems/car-alarm-3.jpg" alt="" width="350" height="300">
                     </figure>
                 </div>
             </div> <!--product row-->
 
-            <div class="row">
+            <div class="row car-alarm-pagination">
                 <div class="col-lg-5"></div>
                 <div class="col-lg-2">
                     <nav aria-label="Solar Led Flood Lights">
@@ -103,12 +105,10 @@
                     </nav>
                 </div>
                 <div class="col-lg-5"></div>        
-            </div> <!--end of flood lights pagination-->
+            </div> <!--end of car alarms pagination-->
 
             <div class="contact-div">
-                <h3>
-                    <a href="contact.php">Contact us </a>Today
-                </h3>
+                <a href="contact.php"><h3>Contact us Today</h3></a>
             </div>
         </div> <!--main content section-->
 

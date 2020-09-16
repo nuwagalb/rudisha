@@ -46,83 +46,77 @@
       </div> <!--image section-->
 
       <div class="main-content-section">
-        <div id="contact-title" class="row">
-          <div class="col-lg-5"></div>
-          <div class="col-lg-2">
-            <h4>Get in touch</h4>
+        <div class="row">
+          <div class="contact-title col-lg-12">
+            <h1>Get in touch</h1>
           </div>
-          <div class="col-lg-5"></div>
         </div>
 
         <div class="row">
-          <div id="contact-form" class="col-lg-6">
+          <div class="col-lg-2"></div>
+          <div class="contact-form col-lg-4">
             <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-              <div>
+              <div class="form-inp">
                   <input name="name" type="text" value="<?php echo $name; ?>" placeholder="Name" required>
               </div>
 
-              <div>
+              <div class="form-inp">
                   <input name="lname" type="text" value="<?php echo $lname; ?>" placeholder="Last Name" required>
               </div>
 
-              <div>
-                <textarea id="details" name="details" placeholder="Message" required>
-                    <?php echo $details; ?>
-                </textarea>
+              <div class="form-inp">
+                <textarea placeholder="Message" id="details" name="details" required><?php echo $details;?></textarea>
               </div>
 
-              <div>
+              <div class="form-inp">
                 <input name="email" type="email" value="<?php echo $email; ?>" placeholder="Email" required>
               </div>
 
-              <div>
-                <button type="submit">SEND A MESSAGE</button>
+              <div class="form-btn">
+                <button type="submit" onclick="buttonStyle()">SEND A MESSAGE</button>
               </div>
             </form>
           </div>
 
-          <div id="contact details" class="col-lg-6">
-            <div>
-              <p>ADDRESS</p>
+          <div class="col-lg-4">
+            <div class="contact-details">
+              <span>ADDRESS</span>
               <p>
                 Rudisha Limited, Moyo Close <br>
                 Kampala, Uganda
               </p>
             </div>
 
-            <div>
-              <p>OPENING HOURS</p>
+            <div class="contact-details">
+              <span>OPENING HOURS</span>
               <p>
                 Open:  9:00 Am <br>
                 Close: 5:00 Pm
               </p>
             </div>
 
-            <div>
-              <p>PHONE</p>
+            <div class="contact-details">
+              <span>PHONE</span>
               <p>
                 +256788178417 <br>
                 +256759411227
               </p>
             </div>
 
-            <div>
-              <p>EMAIL</p>
+            <div class="contact-details">
+              <span>EMAIL</span>
               <p>
                 info@rudisha.com <br>
                 sales@rudisha.com
               </p>
             </div>
           </div>
-        </div>
-
+        </div> <!--end of form row-->
+        <div class="col-lg-2"></div>
         
-
         <div class="contact-div">
-            <h3>
-                <a href="contact.php">Contact Us </a>Today
-            </h3>
-        </div>        
+          <a href="contact.php"><h3>Contact Us Today</h3></a>
+        </div>
       </div> <!--main content section-->
 
       <?php include "_/components/php/utilities/footer.php" ?>

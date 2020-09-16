@@ -69,7 +69,7 @@
                     </nav>
                 </div>
                 <div class="col-lg-5"></div>        
-            </div> <!--end of flood lights pagination-->
+            </div> <!--end of solar pagination-->
 
             <div class="row flood-prod-details">
                 <div class="col-lg-3"></div>
@@ -232,6 +232,9 @@
             </div>
         </div> <!--end of led bulbs lights div-->
 
+        <div class="contact-div">
+            <a href="contact.php"><h3>Contact us Today</h3></a>
+        </div>
       </div> <!--main content section-->
 
       <?php include "_/components/php/utilities/footer.php" ?>

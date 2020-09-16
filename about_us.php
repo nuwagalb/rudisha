@@ -66,7 +66,7 @@
             </p>
 
             <p>
-              <a href="contact.php">Contact us</a> today to set up a meeting with one of our sales representatives
+              <a href="contact.php" class="cont-lnk">Contact us</a> today to set up a meeting with one of our sales representatives
               or request a demo.
             </p>
           </div>
@@ -121,7 +121,9 @@
           </div>
         </div> <!--end of what we do details div-->
 
-
+        <div class="contact-div">
+            <a href="contact.php"><h3>Contact us Today</h3></a>
+        </div>
       </div> <!--main content section-->
 
       <?php include "_/components/php/utilities/footer.php" ?>

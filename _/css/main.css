@@ -200,8 +200,7 @@ select:-webkit-autofill:focus {
 /*About Us*/
 .about-us-image-area {
     background-image: url("../../assets/general/about-us.jpg");
-    /*background-repeat: no-repeat;*/ /*clean this up*/
-    height: 200px;
+    height: 300px;
 }
 
 .about-us-image-area p,
@@ -247,11 +246,20 @@ select:-webkit-autofill:focus {
     padding-bottom: 50px;
 }
 
+.cont-lnk {
+    color: #fbc318;
+    font-weight: bolder;
+}
+
+.about-details p a:hover {
+    color: #fbc318;
+    text-decoration: none;
+}
+
 /*Solar Flood Lights*/
 .solar-lights-image-area {
     background-image: url("../../assets/general/solar-solutions.jpg");
-    /*background-repeat: no-repeat;*/ /*clean this up*/
-    height: 200px;
+    height: 300px;
 }
 
 .solar-lights-one-title {
@@ -317,6 +325,346 @@ select:-webkit-autofill:focus {
 
 .led-bulbs-area-details {
     padding-bottom: 40px;
+}
+
+/*fleet management image*/
+.fleet-management-image-area {
+    background-image: url("../../assets/general/final-fleet.jpg");
+    height: 300px;
+}
+
+/*vehicle tracking image*/
+.vehicle-tracking-image-area {
+    background-image: url("../../assets/general/vehicle-tracking.jpg");
+    height: 300px;
+}
+
+/*motorcycle tracking image*/
+.motorcycle-tracking-image-area {
+    background-image: url("../../assets/general/vehicle-tracking.jpg");
+    background: no-repeat;
+    height: 300px;
+}
+
+/*generator-monitoring image*/
+.generator-monitoring-image-area {
+    background-image: url("../../assets/general/vehicle-tracking.jpg");
+    background: no-repeat;
+    height: 200px;
+}
+
+/*razor wire images*/
+.razor-wire-image-area {
+    background-image: url("../../assets/razor-wire-fences/wall-fence-razor-wire.png");
+    height: 200px;
+}
+
+.razor-wire-two-image-area {
+    background-image: url("../../assets/razor-wire-fences/wall-fence-razor-wire.png");
+    height: 430px;
+}
+
+/*automated gate images*/
+.automated-gate-image-area {
+    background-image: url("../../assets/razor-wire-fences/wall-fence-razor-wire.png");
+    height: 200px;
+}
+
+.automated-gate-two-image-area {
+    background-image: url("../../assets/automated-gate-control/automated-gate-4.png");
+    height: 450px;
+}
+
+/*car alarm systems images*/
+.car-alarms-image-area {
+    background-image: url("../../assets/automated-gate-control/automated-gate-4.png");
+    height: 200px;
+}
+
+.car-alarms-image-two-area {
+    background-image: url("../../assets/car-alarm-systems/car-alarm-7.png");
+    height: 350px;
+}
+
+/*aeroplane warning lights image*/
+.aircraft-lights-image-area {
+    background-image: url("../../assets/aircraft-warning-lights/aeroplane.jpg");
+    height: 200px;
+}
+
+/*contact us image*/
+.contact-image-area {
+    background-image: url("../../assets/general/contact-us.jpg");
+    height: 300px;
+}
+
+/*Fleet management
+  Vehicle Tracking
+  Motorcycle Tracking
+  Generator Monitoring
+  Razor Wire
+  Automated Gate
+*/
+.fleet-management-info,
+.vehicle-tracking-info,
+.motorcycle-tracking-info,
+.generator-monitoring-info,
+.razor-wire-info,
+.automated-gate-info {
+    padding-bottom: 120px;
+}
+
+.fleet-management-title,
+.vehicle-tracking-title,
+.motorcycle-tracking-title,
+.generator-monitoring-title,
+.razor-wire-title,
+.automated-gate-title,
+.car-alarms-title {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.fleet-management-title h1,
+.vehicle-tracking-title h1,
+.motorcycle-tracking-title h1,
+.generator-monitoring-title h1,
+.razor-wire-title h1,
+.automated-gate-title h1,
+.car-alarms-title h1 {
+    color: #fbc318;
+    font-weight: bolder;
+}
+
+.fleet-management-details-one p,
+.vehicle-tracking-details-one p,
+.motorcycle-tracking-details-one p,
+.generator-monitoring-details-one p,
+.razor-wire-details-one p,
+.automated-gate-details-one p,
+.car-alarms-details-one p {
+    padding-left: 80px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.fleet-management-details-two,
+.vehicle-tracking-details-two,
+.motorcycle-tracking-details-two,
+.generator-monitoring-details-two {
+    padding-top: 30px;
+    background-color: rgb(28, 28, 28);
+    padding-bottom: 50px;
+}
+
+.fleet-management-details-two h4,
+.vehicle-tracking-details-two h4,
+.motorcycle-tracking-details-two h4,
+.generator-monitoring-details-two h4 {
+    color: #fbc318;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.fleet-management-list-one,
+.vehicle-tracking-list-one,
+.motorcycle-tracking-list-one,
+.generator-monitoring-list-one {
+    padding-left: 10px;
+}
+
+.fleet-management-list-one p,
+.vehicle-tracking-list-one p,
+.motorcycle-tracking-list-one p,
+.generator-monitoring-list-one p {
+    padding-bottom: 10px;
+}
+
+.fleet-adv {
+    font-weight: bolder;
+    color: white;
+}
+
+.contact-div {
+    text-align: center;
+    background-color: rgb(75, 73, 73);
+    padding: 20px 20px 20px 20px;
+}
+
+.contact-div a {
+    font-size: 46px;
+    color:#fbc318;
+    text-decoration: none;
+}
+
+/*Vehicle Tracking
+  Motorcycle Tracking
+  Generator Monitoring
+*/
+.vehicle-tracking-list-one li,
+.motorcycle-tracking-list-one li,
+.generator-monitoring-list-one li {
+    padding-bottom: 5px;
+}
+
+/*razor wire product details
+  automated gate product details
+*/
+.razor-wire-details-one h4,
+.automated-gate-details-one h4 {
+    color:#fbc318;
+    padding-left: 80px;
+    font-weight: bolder;
+}
+
+.prd-serv {
+    padding-left: 80px;
+    font-weight: bolder;
+}
+
+.prd-serv li,
+.prd-serv-2 li {
+    padding-bottom: 10px;
+}
+
+.prd-serv-2 {
+    font-weight: bolder;
+}
+
+/*cctv cameras*/
+.cctv-camera-title,
+.aircraft-lights-title {
+    color: #fbc318;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.cctv-prd-title,
+.camera-footage-title,
+.aircraft-lights-prd-title {
+    color: #fbc318;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.camera-prd {
+    padding-left: 80px;
+}
+
+.services-title {
+    color: #fbc318;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.services-details {
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.services-details ul li {
+    padding-bottom: 10px;
+}
+
+/*car alarms*/
+.products-title-row {
+    padding-left: 80px;
+    padding-bottom: 30px;
+    color: #fbc318;
+    font-weight: bolder;
+}
+
+.car-alarms-products-div {
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.car-alarm-pagination {
+    padding-bottom: 15px;
+}
+
+/*aircraft warning lights*/
+.aircraft-lights-one-row {
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+
+.aircraft-lights-two-row {
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.air-craft-warning-pagn {
+    padding-bottom: 30px;
+}
+
+/*contact*/
+.contact-title {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-form {
+    padding-left: 80px;
+    padding-bottom: 120px;
+}
+
+.form-inp input {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+
+.form-inp textarea {
+    width: 350px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.form-btn {
+    padding-left: 150px;
+}
+
+.form-btn button {
+    width: 200px;
+    height: 50px;
+    background-color: #fbc318;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid #fbc318;
+    border-radius: 25px;
+}
+
+.contact-details span {
+    color: black;
+    font-weight: 700;
+}
+
+.contact-details p {
+    margin-bottom: 30px;
+}
+
+.form-btn button:hover {
+    background-color: rgb(75, 73, 73);
+    border: 1px solid rgb(75, 73, 73);
+}
+
+.form-btn button:visited {
+    background-color: rgb(75, 73, 73);
+    border: 1px solid rgb(75, 73, 73);
 }
 
 /*footer*/

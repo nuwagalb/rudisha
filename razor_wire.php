@@ -11,18 +11,18 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
   </head>
 
-  <body id="automated-gate">
+  <body id="razor-wire">
     <section class="container">
       <?php include "_/components/php/utilities/header.php" ?>
 
       <div class="image-section">
-        <div class="automated-gate-image-area"></div>
+        <div class="razor-wire-image-area"></div>
       </div> <!--image section-->
 
       <div class="main-content-section">
-        <div class="automated-gate-info row">
-          <div class="automated-gate-details-one col-lg-6">
-            <div class="automated-gate-title">
+        <div class="razor-wire-info row">
+          <div class="razor-wire-details-one col-lg-6">
+            <div class="razor-wire-title">
                 <h1>Razor Wire and Electric Fences</h1>
             </div>
 
@@ -33,39 +33,45 @@
 
             <p>
               Razor wire and electric fences is a far more effective way of
-              preventing intrusion along perimeter barriers for high security
+              preventing <br> intrusion along perimeter barriers for high security
               areas
             </p>
 
             <p>
               At Rudisha, we install the highest quality of electric fences
-              and flat trap razor wire of spiral or concertina wire for our
+              and flat trap <br> razor wire of spiral or concertina wire for our
               clients.
             </p>
 
             <p>
               Our dedicated team is on hand to provide advice and assistance
-              with any queries you may have regarding installation on your
+              with any <br> queries you may have regarding installation on your
               property
             </p>
 
             <h4>Products and Services</h4>
-            <ul>
-              <li>Hot dipped Galvanized cross looped coils Sale and Installation</li>
-              <li>Barbed wired galvanized cross loop coils Sale and Installation</li>
-              <li>BOT-22 Hot dipped galvanized concertina razor wire Sales and Installations</li>
+            <ul class="prd-serv">
+              <li>
+                  Hot dipped Galvanized cross looped coils Sale and Installation
+              </li>
+              <li>
+                Barbed wired galvanized cross loop coils Sale and Installation
+              </li>
+              <li>
+                BOT-22 Hot dipped galvanized concertina razor wire Sales and Installations
+              </li>
             </ul>
           </div>
 
-          <div class="automated-gate-details-two col-lg-6">
-            <div class="automated-gate-two-image-area"></div>
-          </div>        
-        </div> <!--motorcycle tracking info row-->
+          <div class="razor-wire-details-two col-lg-5">
+            <div class="razor-wire-two-image-area"></div>
+          </div>
+          
+          <div class="col-lg-1"></div>
+        </div> <!--razor wire tracking info row-->
 
         <div class="contact-div">
-            <h3>
-                <a href="contact.php">Contact Us </a>Today
-            </h3>
+          <a href="contact.php"><h3>Contact Us Today</h3></a>
         </div>        
       </div> <!--main content section-->
 

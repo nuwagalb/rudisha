@@ -15,14 +15,14 @@
                 Email 2: &nbsp <span class="det-color">info@rudisha.com</span>
             </li>
         </ul>
-    </div> <!--first columm footer section-->
+    </div> <!--first column footer section-->
 
     <div class="second-footer-column col-lg-2">
         <p class="footer-tle">SOLAR SOLUTIONS</p>
         <ul>
             <li><a href="solar_products.php" class="det-color">Our Products</a></li>
         </ul>
-    </div> <!--second columm footer section-->
+    </div> <!--second column footer section-->
 
     <div class="third-footer-column col-lg-3">
         <p class="footer-tle">IoT SERVICES</p>
@@ -32,7 +32,7 @@
             <li><a href="motorcycle_tracking.php" class="det-color">Motorcycle Tracking</a></li>
             <li><a href="generator_monitoring.php" class="det-color">Generator Monitoring</a></li>
         </ul>
-    </div> <!--third columm footer section-->
+    </div> <!--third column footer section-->
 
     <div class="fourth-footer-column col-lg-3">
         <p class="footer-tle">SECURITY SOLUTIONS</p>

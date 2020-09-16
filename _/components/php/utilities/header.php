@@ -80,7 +80,7 @@
                         <div class="security-div col-sm-12">
                             <ul class="options">
                                 <li>
-                                    <a class="automated-gate" tabindex="-1" href="razor_wire.php">
+                                    <a class="fleet-management" tabindex="-1" href="razor_wire.php">
                                         Razor Wire Fences
                                     </a>
                                 </li>
@@ -104,7 +104,7 @@
                                 </li>
 
                                 <li>
-                                    <a class="aircraft-warning" tabindex="-1" href="aircraft_warning.php">
+                                    <a class="aircraft-warning" tabindex="-1" href="aircraft_warning_lights.php">
                                         Aircraft Warning Lights
                                     </a>
                                 </li>

@@ -11,79 +11,78 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
   </head>
 
-  <body id="automated-gate">
+  <body id="generator-monitoring">
     <section class="container">
       <?php include "_/components/php/utilities/header.php" ?>
 
       <div class="image-section">
-        <div class="automated-gate-image-area"></div>
+        <div class="generator-monitoring-image-area"></div>
       </div> <!--image section-->
 
       <div class="main-content-section">
-        <div class="automated-gate-info row">
-          <div class="automated-gate-details-one col-lg-6">
-            <div class="automated-gate-title">
+        <div class="generator-monitoring-info row">
+          <div class="generator-monitoring-details-one col-lg-6">
+            <div class="generator-monitoring-title">
                 <h1>Generator Monitoring and Management</h1>
             </div>
 
             <p>
               Many power-operated Assets, Generators often serve as a crucial 
-              backup or even the main power supply which makes it crucial for
-              them to function properly at all times
+              backup <br> or even the main power supply which makes it crucial for
+              them to function <br> properly at all times
             </p>
 
             <p>
-              Our Generator and Management solutions help you achieve proper
-              Generator management and usage thus proper optimization. This is
+              Our Generator and Management solutions help you achieve proper <br>
+              Generator management and usage thus proper optimization. This is <br>
               achieved through Smart Notifications, real-time generator status,
-              real-time diesel fuel levels, run hours, effortless generator 
-              maintenance notifications, etc. All these increase work efficiency
+              real-time <br> diesel fuel levels, run hours, effortless generator 
+              maintenance notifications, <br> etc. All these increase work efficiency
               and operational savings 
             </p>
           </div>
 
-          <div class="automated-gate-details-two col-lg-6">
+          <div class="generator-monitoring-details-two col-lg-5">
             <h4>Benefits of Our Generator Monitoring and Management Solutions</h4>
 
-            <ul class="automated-gate-list-one">
+            <ul class="generator-monitoring-list-one">
                 <li>
-                  Fast proactive Service response - through receiving alarm
+                  <span class="fleet-adv">Fast proactive Service responded</span> - through receiving alarm
                   notifications via Email and/or SMS. This allows you to respond
                   quickly to your needs and avoid any down-time
                 </li>
                 <li>
-                  Confidence and peace of mind - No need to worry about the next
+                  <span class="fleet-adv">Confidence and peace of mind</span>  - No need to worry about the next
                   outage with the system's capability to kick in during the next
                   outage
                 </li>
                 <li>
-                  User Portal - you receive your own log-in to monitor and track
+                  <span class="fleet-adv">User Portal</span> - you receive your own log-in to monitor and track
                   your equipment any time
                 </li>
                 <li>
-                  Reporting - monitored events are time & date stamped and can be
+                  <span class="fleet-adv">Reporting</span> - monitored events are time & date stamped and can be
                   downloaded in daily, weekly and/or monthly. Reports can also be
                   automated and sent directly via email
                 </li>
                 <li>
-                  Improved quality - through real-time monitoring of Genset status,
+                  <span class="fleet-adv">Improved quality</span> - through real-time monitoring of Genset status,
                   reliability is improved by knowing exactly when Genset started
                   during an outage scenario
                 </li>
                 <li>
-                  Other features include: Real-time fuel/leak monitoring, sends 
+                  <span class="fleet-adv">Other features include:</span> Real-time fuel/leak monitoring, sends 
                   alerts if there's any deviation, detects potential mechanical
                   problems, root cause analysis, fuel theft alerts, remote management,
                   real-time interactive dashboards
                 </li>
             </ul>
-          </div>        
-        </div> <!--motorcycle tracking info row-->
+          </div>
+          <div class="col-lg-1"></div>         
+        </div> <!--generator monitoring info row-->
 
         <div class="contact-div">
-            <h3>
-                <a href="contact.php">Contact Us </a>Today
-            </h3>
+            <a href="contact.php"><h3>Contact Us Today</h3></a>
         </div>        
       </div> <!--main content section-->
 
