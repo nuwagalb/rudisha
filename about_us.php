@@ -14,14 +14,14 @@
   </head>
 
   <body id="about-us">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/header.php" ?>
 
-      <div class="image-section">
+      <div class="image-section row">
         <div class="about-us-image-area"><p>About Us</p></div>
       </div> <!--image section-->
 
-      <div class="main-content-section">
+      <div class="main-content-section row">
         <div class="row">
           <div class="col-lg-12">
             <p class="about-headers" id="who">Who We Are</p>

@@ -14,15 +14,15 @@
   </head>
 
   <body id="aircraft-lights">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/header.php" ?>
 
-      <div class="main-content-section aircraft-section">
-        <div class="aircraft-lights-title">
+      <div class="main-content-section aircraft-section row">
+        <div class="aircraft-lights-title row">
             <h1>Aircraft Warning Lights</h1>
         </div>
 
-        <div class="aircraft-lights-prd-title">
+        <div class="aircraft-lights-prd-title row">
             <h4>Products</h4>
         </div>
 

@@ -14,15 +14,11 @@
   </head>
 
   <body id="cctv-camera">
-    <section class="container">
+    <section class="container-fluid">
         <?php include "utilities/header.php" ?>
 
-        <div class="image-section">
-            <div class="cctv-camera-image-area"></div>
-        </div> <!--image section-->
-
-        <div class="main-content-section">
-            <div class="cctv-camera-title">
+        <div class="main-content-section row">
+            <div class="cctv-camera-title row">
                 <h1>CCTV CAMERAS</h1>
             </div>
 
@@ -48,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="camera-footage-title">
+            <div class="camera-footage-title row">
                 <h4>Clear Camera Footage</h4>
             </div>
 
@@ -70,11 +66,11 @@
                 </div>
             </div>
 
-            <div class="services-title">
+            <div class="services-title row">
                 <h4>Services</h4>
             </div>
 
-            <div class="services-details">
+            <div class="services-details row">
                 <ul>
                     <li>Installations</li>
                     <li>Sales of CCTV Cameras</li>
@@ -82,7 +78,7 @@
                 </ul>
             </div>
 
-            <div class="contact-div">
+            <div class="contact-div row">
                 <a href="contact.php"><h3>Contact us Today</h3></a>
             </div>
         </div> <!--main content section-->

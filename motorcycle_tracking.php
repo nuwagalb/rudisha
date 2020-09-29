@@ -14,14 +14,14 @@
   </head>
 
   <body id="motorcycle-tracking">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/header.php"?>
 
-      <div class="image-section">
+      <div class="image-section row">
         <div class="motorcycle-tracking-image-area"></div>
       </div> <!--image section-->
 
-      <div class="main-content-section">
+      <div class="main-content-section row">
         <div class="motorcycle-tracking-info row">
           <div class="motorcycle-tracking-details-one col-lg-6">
             <div class="motorcycle-tracking-title">
@@ -82,7 +82,7 @@
           <div class="col-lg-1"></div>         
         </div> <!--motorcycle tracking info row-->
 
-        <div class="contact-div">
+        <div class="contact-div row">
           <a href="contact.php"><h3>Contact Us Today</h3></a>
         </div>        
       </div> <!--main content section-->

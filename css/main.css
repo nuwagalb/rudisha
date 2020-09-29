@@ -13,7 +13,6 @@ body {
     line-height: 1.33333;
     color: #adadad;
     background-color: #fff;
-    padding-top: 70px;
 }
 
 /* global */
@@ -87,13 +86,10 @@ select:-webkit-autofill:focus {
 /*Navigation section*/
 .index-navigation-section {
     margin-top: 15px;
-    height: 70px;
-    box-sizing: border-box;
 }
 
 /*Navbar*/
 .navbar {
-    height: 70px;
     padding-left: 58px;
     padding-top: 10px;
     font-size: 15px;
@@ -102,60 +98,64 @@ select:-webkit-autofill:focus {
     margin-bottom: 0px;
 }
 
-.navbar-header {
+.navbar-inverse .navbar-nav>li>a {
     color: white;
-    margin-right: 35px;
+    font-weight: bolder;
+    background: black;
 }
 
-.navbar-header #phn-icon {
-    padding-top: 10px;
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fbc318;
+    font-weight: bolder;
 }
 
-.nav li a {
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fbc318;
+    font-weight: bolder;
+    background:black;
+}
+
+.navbar-inverse .navbar-brand {
     color: white;
-    height: 46px;
-    margin-bottom: 13px;
+    font-weight: bolder;
 }
 
-.nav li a:hover,
-.nav .active a {
-    background: #fbc318;
-    border-radius:  28px;
-}
-
-.social-media {
-    margin-top: 11px;
-    margin-left: 50px;
-    visibility: hidden;
-}
-
-.social-media a {
-    margin-left: 5px;
+.navbar-inverse .navbar-header a:hover {
+    color: #fbc318;
+    font-weight: bolder;
 }
 
 .dropdown-menu {
     box-sizing: border-box;
     background-color: rgb(28, 28, 28);
     width: 200px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700px;
 }
 
-.options li {
-    padding-top: 20px;
+.dropdown-menu li {
+    padding-top: 10px;
 }
 
-.options li:last-child {
-    padding-bottom: 20px;
+.dropdown-menu li:last-child {
+    padding-bottom: 10px;
 }
 
-.options li a {
+.dropdown-menu li a {
     font-size: 14px;
     color:#fbc318;
     text-decoration: none;
+    font-weight: bolder;
 }
 
-.options li a:hover {
+.dropdown-menu li a:focus,
+.dropdown-menu li a:hover {
     background-color: rgb(28, 28, 28);
     border-radius: 0;
+    color:#fbc318;
 }
 
 /*General header*/
@@ -313,7 +313,7 @@ select:-webkit-autofill:focus {
     color: #fbc318;
     font-size: 18px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-weight: bolder;
 }
 
@@ -739,4 +739,15 @@ select:-webkit-autofill:focus {
     text-align: center;
     padding-bottom: 80px;
     color: white;
+}
+
+/*media queries*/
+@media (max-width: 768px) {
+    .first-footer-column,
+    .second-footer-column,
+    .third-footer-column,
+    .fourth-footer-column {
+        margin-left: 240px;
+        margin-bottom: 40px;
+    }
 }

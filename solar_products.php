@@ -14,15 +14,15 @@
   </head>
 
   <body id="solar-flood-lights">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/header.php" ?>
 
-      <div class="image-section">
+      <div class="image-section row">
         <div class="solar-lights-image-area"><p>Solar Solutions</p></div>
       </div> <!--image section-->
 
-      <div class="main-content-section">
-        <div>
+      <div class="main-content-section row">
+        <div class="row">
             <div class="solar-lights-one-title row">
                 <div class="col-lg-12">
                     <p>Solar Led Flood Lights</p>
@@ -70,7 +70,7 @@
             </div>
         </div> <!--end of solar led flood lights div-->
         
-        <div>
+        <div class="row">
             <div class="street-lights-title">
                 <p>Led Solar Street Lights</p>
             </div>
@@ -120,8 +120,8 @@
             </div>
         </div> <!--end of solar led street lights div-->
 
-        <div>
-            <div class="led-bulbs-title">
+        <div class="row">
+            <div class="led-bulbs-title row">
                 <p>Led Bulbs</p>
             </div>
 
@@ -143,32 +143,6 @@
                 </div>
             </div>
 
-            <!-- <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-2">
-                    <nav aria-label="Led Bulbs">
-                        <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-5"></div>         -->
-            </div> <!--end of led bulbs pagination-->
-
             <div class="row led-bulbs-area-details">
                 <div class="col-lg-5"></div>
                 <div class="col-lg-2 prd-align">
@@ -182,7 +156,7 @@
             </div>
         </div> <!--end of led bulbs lights div-->
 
-        <div class="contact-div">
+        <div class="contact-div row">
             <a href="contact.php"><h3>Contact us Today</h3></a>
         </div>
       </div> <!--main content section-->

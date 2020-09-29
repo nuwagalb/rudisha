@@ -14,14 +14,14 @@
   </head>
 
   <body id="razor-wire">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/header.php" ?>
 
-      <div class="image-section">
+      <div class="image-section row">
         <div class="razor-wire-image-area"></div>
       </div> <!--image section-->
 
-      <div class="main-content-section">
+      <div class="main-content-section row">
         <div class="razor-wire-info row">
           <div class="razor-wire-details-one col-lg-6">
             <div class="razor-wire-title">
@@ -72,7 +72,7 @@
           <div class="col-lg-1"></div>
         </div> <!--razor wire tracking info row-->
 
-        <div class="contact-div">
+        <div class="contact-div row">
           <a href="contact.php"><h3>Contact Us Today</h3></a>
         </div>        
       </div> <!--main content section-->

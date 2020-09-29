@@ -14,14 +14,14 @@
   </head>
 
   <body id="car-alarms">
-    <section class="container">
+    <section class="container-fluid">
         <?php include "utilities/header.php" ?>
 
-        <div class="image-section">
+        <div class="image-section row">
             <div class="car-alarms-image-area"></div>
         </div> <!--image section-->
 
-        <div class="main-content-section">
+        <div class="main-content-section row">
             <div class="car-alarms-info row">
                 <div class="car-alarms-details-one col-lg-6">
                     <div class="car-alarms-title">
@@ -83,7 +83,7 @@
                 </div>
             </div> <!--product row-->
 
-            <div class="contact-div">
+            <div class="contact-div row">
                 <a href="contact.php"><h3>Contact us Today</h3></a>
             </div>
         </div> <!--main content section-->

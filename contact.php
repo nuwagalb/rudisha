@@ -80,14 +80,14 @@
   </head>
 
   <body id="contact">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/header.php" ?>
 
-      <div class="image-section">
+      <div class="image-section row">
         <div class="contact-image-area"></div>
       </div> <!--image section-->
 
-      <div class="main-content-section">
+      <div class="main-content-section row">
         <div class="row">
           <div class="contact-title col-lg-12">
             <h1>Get in touch</h1>
@@ -152,7 +152,7 @@
         </div> <!--end of form row-->
         <div class="col-lg-2"></div>
         
-        <div class="contact-div">
+        <div class="contact-div row">
           <a href="contact.php"><h3>Contact Us Today</h3></a>
         </div>
       </div> <!--main content section-->

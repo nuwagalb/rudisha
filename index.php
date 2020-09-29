@@ -16,10 +16,10 @@
   </head>
 
   <body id="home">
-    <section class="container">
+    <section class="container-fluid">
       <?php include "utilities/index-header.php" ?>
 
-      <div class="home-image-section">
+      <div class="home-image-section row">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">

@@ -11,7 +11,7 @@
                 Phone 2: <span class="det-color">+256788178417</span>
             </li>
             <li id="email-area">
-                Email 1: &nbsp <span class="det-color">sales@rudisha.com</span> 
+                Email 1: &nbsp <span class="det-color">sales@rudisha.com</span> <br> 
                 Email 2: &nbsp <span class="det-color">info@rudisha.com</span>
             </li>
         </ul>
@@ -44,6 +44,7 @@
             <li><a href="aircraft_warning_lights.php" class="det-color">Air Craft Warning Lights</a></li>
         </ul>
     </div>
+    <div class="col-lg-2"></div>
 </div> <!--main footer section-->
 
 <div class="copyright-section row">
