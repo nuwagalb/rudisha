@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rudisha | Car Alarm Systems</title>
-    <link href="assets/general/favicon.ico" rel="icon">
-    <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/main.css" rel="stylesheet">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+    <link href="images/general/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body id="car-alarms">
     <section class="container">
-        <?php include "_/components/php/utilities/header.php" ?>
+        <?php include "utilities/header.php" ?>
 
         <div class="image-section">
             <div class="car-alarms-image-area"></div>
@@ -64,58 +66,33 @@
             <div class="car-alarms-products-div row">
                 <div class="col-lg-4">
                     <figure>
-                        <img src="assets/car-alarm-systems/car-alarm-1.jpg" alt="" width="350" height="300">
+                        <img src="images/car-alarm-systems/prd-1.jpg" alt="car alarm" width="350" height="300">
                     </figure>
                 </div>
 
                 <div class="col-lg-4">
                     <figure>
-                        <img src="assets/car-alarm-systems/car-alarm-2.jpg" alt="" width="350" height="300">
+                        <img src="images/car-alarm-systems/prd-2.jpg" alt="car alarm" width="350" height="300">
                     </figure>
                 </div>
 
                 <div class="col-lg-4">
                     <figure>
-                        <img src="assets/car-alarm-systems/car-alarm-3.jpg" alt="" width="350" height="300">
+                        <img src="images/car-alarm-systems/prd-3.jpg" alt="car alarm" width="350" height="300">
                     </figure>
                 </div>
             </div> <!--product row-->
-
-            <div class="row car-alarm-pagination">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-2">
-                    <nav aria-label="Solar Led Flood Lights">
-                        <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-5"></div>        
-            </div> <!--end of car alarms pagination-->
 
             <div class="contact-div">
                 <a href="contact.php"><h3>Contact us Today</h3></a>
             </div>
         </div> <!--main content section-->
 
-        <?php include "_/components/php/utilities/footer.php" ?>
+        <?php include "utilities/footer.php" ?>
     </section>
 
-    <script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
   </body>
 </html>

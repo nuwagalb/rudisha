@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    overflow-x: hidden;
+    display: block;
+}
+
+body {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    line-height: 1.33333;
+    color: #adadad;
+    background-color: #fff;
+}
+
+/*Nav Brand*/
+.navbar-brand {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-header a:hover {
+    color: #fbc318;
+}

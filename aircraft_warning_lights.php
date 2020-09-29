@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rudisha | Aircraft Warning Lights</title>
-    <link href="assets/general/favicon.ico" rel="icon">
-    <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/main.css" rel="stylesheet">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+    <link href="images/general/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body id="aircraft-lights">
     <section class="container">
-      <?php include "_/components/php/utilities/header.php" ?>
+      <?php include "utilities/header.php" ?>
 
-      <div class="main-content-section">
+      <div class="main-content-section aircraft-section">
         <div class="aircraft-lights-title">
             <h1>Aircraft Warning Lights</h1>
         </div>
@@ -27,69 +29,45 @@
         <div class="aircraft-lights-one-row row">
             <div class="col-lg-4">
                 <a href="#" title="Product 1">
-                    <img src="assets/aircraft-warning-lights/awl-1.png" alt="" width="350" height="300">
+                    <img src="images/aircraft/prd-1.png" alt="aircraft lights" width="350" height="300">
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="#" title="Product 2" title="Product 2">
-                    <img src="assets/aircraft-warning-lights/awl-2.png" alt="" width="350" height="300">
+                <a href="#">
+                    <img src="images/aircraft/prd-2.png" alt="aircraft lights" width="350" height="300">
                 </a>
             </div>
             <div class="col-lg-4">
                 <a href="#" title="Product 3">
-                    <img src="assets/aircraft-warning-lights/awl-3.png" alt="" width="350" height="300">
+                    <img src="images/aircraft/prd-3.png" alt="aircraft lights" width="350" height="300">
                 </a>
             </div>
         </div> <!--First products row-->
 
         <div class="aircraft-lights-two-row row">
             <div class="col-lg-4">
-                <a href="#" title="Product 4">
-                    <img src="assets/aircraft-warning-lights/awl-4.png" alt="" width="350" height="300">
+                <a href="#">
+                    <img src="images/aircraft/prd-4.png" alt="aircraft lights" width="350" height="300">
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="#" title="Product 5" title="Product 5">
-                    <img src="assets/aircraft-warning-lights/awl-base-controller-1.png" alt="" width="350" height="300">
+                <a href="#">
+                    <img src="images/aircraft/prd-5.png" alt="aircraft lights" width="350" height="300">
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="#" title="Product 6">
-                    <img src="assets/aircraft-warning-lights/awl-base-controller-2.png" alt="" width="350" height="300">
+                <a href="#">
+                    <img src="images/aircraft/prd-6.png" alt="aircraft lights" width="350" height="300">
                 </a>
             </div>
         </div> <!--Second products row-->
-
-        <div class="air-craft-warning-pagn row">
-            <div class="col-lg-5"></div>
-            <div class="col-lg-2">
-                <nav aria-label="Aircraft Warning Lights">
-                    <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-lg-5"></div>        
-        </div> <!--end of aircraft pagination-->
       </div> <!--main content section-->
 
-      <?php include "_/components/php/utilities/footer.php" ?>
+      <?php include "utilities/footer.php" ?>
     </section> <!--main container-->
 
-	<script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
   </body>
 </html>

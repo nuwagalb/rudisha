@@ -1,27 +1,67 @@
 <?php
-    //function to process our data
+  //define variables and set to empty values
+  $name = $details = $email = $subject = $to = $subject = $message = $headers = "";
+	
+	if (isset($_POST['submit'])) { // run this function when the form has been submitted.
+			//capture name data
+			if(empty($_POST["name"])) {
+        echo "<script>" . "alert(\"Please enter your name.\");" .  "</script>";
+			} else {
+        $name = test_input($_POST["name"]);
+        
+        if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+          echo "<script> alert(\"Only letters and white space are allowed. Please enter your correct name.\"); </script>";
+        }
+      }
+
+      if(empty($_POST["details"])) { 
+        echo "<script> alert(\"Please enter a message\"); </script>";
+			} else {
+        $details = test_input($_POST["details"]);
+      }
+
+      //capture email data
+			if(empty($_POST["email"])) { 
+        echo "<script> alert(\"Please enter your email\"); </script>";
+			} else {
+        $email = test_input($_POST["email"]);
+        
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          echo "<script> alert(\"Please enter a valid email address\"); </script>";
+        }
+
+        $to = "info@rudishalimited.com";
+        $subject = "Message from Customer";
+        $message = "<html>
+						<head>
+							<title>RUDISHA CONTACT INFORMATION</title>
+						</head>
+						<body>
+							Name: " . $name . "<br />" . "<br />" . 
+							"Email: " . $email . "<br />" . "<br />" .
+							"Subject: " . $subject . "<br />" . "<br />" .
+							"Details of subject: " . $details . 
+						"</body>
+          </html>";
+        $headers="From: ".$email;
+
+        if (mail($to, $subject, $message, $message)) {
+          echo "<script> alert(\"Thank you for contacting us. We will get back to you shortly\"); </script>";
+        } else {
+          echo "Your message could not be sent. We are working to resolve the issue.";
+        }
+      }
+
+      
+  }
+
+	//function to process our data
 	function test_input($data) {
 		$data = trim($data);
 		$data = stripslashes($data);
 		$data = htmlspecialchars($data);
 		return $data;
-    }
-
-    //function to check if a form field contains any data.
-    function empty_input_validator($data) {
-        if ($data) {
-            return $data;
-        }
-    }
-    
-    //set initial value of variables to empty string
-    $name = $email = $subject = $details = "";
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST") { // run this function when the form has been submitted.
-        $name = '';
-    }
-
-    
+	}
 ?>
 
 <!DOCTYPE html>
@@ -31,15 +71,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rudisha | Contact</title>
-    <link href="assets/general/favicon.ico" rel="icon">
-    <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/main.css" rel="stylesheet">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+    <link href="images/general/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body id="contact">
     <section class="container">
-      <?php include "_/components/php/utilities/header.php" ?>
+      <?php include "utilities/header.php" ?>
 
       <div class="image-section">
         <div class="contact-image-area"></div>
@@ -55,13 +97,9 @@
         <div class="row">
           <div class="col-lg-2"></div>
           <div class="contact-form col-lg-4">
-            <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+            <form method="POST" action="contact.php">
               <div class="form-inp">
                   <input name="name" type="text" value="<?php echo $name; ?>" placeholder="Name" required>
-              </div>
-
-              <div class="form-inp">
-                  <input name="lname" type="text" value="<?php echo $lname; ?>" placeholder="Last Name" required>
               </div>
 
               <div class="form-inp">
@@ -73,7 +111,7 @@
               </div>
 
               <div class="form-btn">
-                <button type="submit" onclick="buttonStyle()">SEND A MESSAGE</button>
+                <button type="submit" name="submit">SEND A MESSAGE</button>
               </div>
             </form>
           </div>
@@ -106,8 +144,8 @@
             <div class="contact-details">
               <span>EMAIL</span>
               <p>
-                info@rudisha.com <br>
-                sales@rudisha.com
+                info@rudishalimited.com <br>
+                sales@rudishalimited.com
               </p>
             </div>
           </div>
@@ -119,10 +157,11 @@
         </div>
       </div> <!--main content section-->
 
-      <?php include "_/components/php/utilities/footer.php" ?>
+      <?php include "utilities/footer.php" ?>
     </section> <!--main container-->
 
-	<script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
+	  <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
   </body>
 </div>

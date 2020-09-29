@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rudisha | Vehicle Tracking</title>
-    <link href="assets/general/favicon.ico" rel="icon">
-    <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/main.css" rel="stylesheet">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+    <link href="images/general/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body id="vehicle-tracking">
     <section class="container">
-      <?php include "_/components/php/utilities/header.php" ?>
+      <?php include "utilities/header.php" ?>
 
       <div class="image-section">
         <div class="vehicle-tracking-image-area"></div>
@@ -91,10 +93,11 @@
         </div>        
       </div> <!--main content section-->
 
-      <?php include "_/components/php/utilities/footer.php" ?>
+      <?php include "utilities/footer.php" ?>
     </section> <!--main container-->
 
-	<script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
   </body>
 </html>

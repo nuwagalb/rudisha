@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rudisha | Our Products</title>
-    <link href="assets/general/favicon.ico" rel="icon">
-    <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/main.css" rel="stylesheet">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <title>Rudisha | Solar Products</title>
+
+    <link href="images/general/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body id="solar-flood-lights">
     <section class="container">
-      <?php include "_/components/php/utilities/header.php" ?>
+      <?php include "utilities/header.php" ?>
 
       <div class="image-section">
         <div class="solar-lights-image-area"><p>Solar Solutions</p></div>
@@ -27,51 +29,25 @@
                 </div>
             </div>
 
-            <div class="solar-lights-one-row row">
+            <div class="solar-lights-one-row row-margin row">
                 <div class="col-lg-4">
-                    <a href="#" title="Product 1">
-                        <img src="assets/solar-led-flood-lights/prd-1.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/flood-lights/prd-1.png" alt="Flood Lights" width="350" height="300">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" title="Product 4" title="Product 2">
-                        <img src="assets/solar-led-flood-lights/prd-2.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/flood-lights/prd-2.png" alt="Flood Lights" width="350" height="300">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" title="Product 3">
-                        <img src="assets/solar-led-flood-lights/prd-3.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/flood-lights/prd-3.png" alt="Flood Lights" width="350" height="300">
                     </a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-2">
-                    <nav aria-label="Solar Led Flood Lights">
-                        <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-5"></div>        
-            </div> <!--end of solar pagination-->
-
-            <div class="row flood-prod-details">
+            <div class="row flood-prod-details row-margin">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-3 prd-align">
                     <h4>Product Details</h4>
@@ -99,49 +75,23 @@
                 <p>Led Solar Street Lights</p>
             </div>
 
-            <div class="street-lights-row row">
+            <div class="street-lights-row row-margin row">
                 <div class="col-lg-4">
-                    <a href="#" title="Product 1">
-                        <img src="assets/solar-led-street-lights/prd-4.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/street-lights/prd-1.png" alt="Street Lights" width="350" height="300">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" title="Product 4" title="Product 2">
-                        <img src="assets/solar-led-street-lights/prd-7.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/street-lights/prd-2.png" alt="Street Lights" width="350" height="300">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" title="Product 3">
-                        <img src="assets/solar-led-street-lights/prd-11.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/street-lights/prd-3.png" alt="Street Lights" width="350" height="300">
                     </a>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-2">
-                    <nav aria-label="Led Solar Street Lights">
-                        <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-5"></div>        
-            </div> <!--end of street lights pagination-->
 
             <div class="row street-prod-details">
                 <div class="col-lg-3"></div>
@@ -175,25 +125,25 @@
                 <p>Led Bulbs</p>
             </div>
 
-            <div class="led-bulbs-row row">
+            <div class="led-bulbs-row row-margin row">
                 <div class="col-lg-4">
-                    <a href="#" title="Product 1">
-                        <img src="assets/led-bulbs/prd-1.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/led-bulbs/prd-1.jpg" alt="Led Bulbs" width="350" height="300">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" title="Product 4" title="Product 2">
-                        <img src="assets/led-bulbs/prd-2.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/led-bulbs/prd-2.jpg" alt="Led Bulbs" width="350" height="300">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="#" title="Product 3">
-                        <img src="assets/led-bulbs/prd-3.png" alt="" width="350" height="300">
+                    <a href="#">
+                        <img src="images/led-bulbs/prd-3.jpg" alt="Led Bulbs" width="350" height="300">
                     </a>
                 </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-5"></div>
                 <div class="col-lg-2">
                     <nav aria-label="Led Bulbs">
@@ -216,7 +166,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-5"></div>        
+                <div class="col-lg-5"></div>         -->
             </div> <!--end of led bulbs pagination-->
 
             <div class="row led-bulbs-area-details">
@@ -237,10 +187,11 @@
         </div>
       </div> <!--main content section-->
 
-      <?php include "_/components/php/utilities/footer.php" ?>
+      <?php include "utilities/footer.php" ?>
     </section> <!--main container-->
 
-	<script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
   </body>
 </html>
